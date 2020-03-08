@@ -52,6 +52,7 @@
 
   if(isset($_SESSION['pesan'])){
       echo $_SESSION['pesan'];
+      
   }
 
   if(isset($_GET['act'])){
