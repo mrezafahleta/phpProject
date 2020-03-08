@@ -31,7 +31,7 @@
         <td><?= $data['level'] ?></td>
         <td><?= $data['login_at'] ?></td>
         <td>
-            <a href="#">Edit</a>
+            <a href="">Edit</a>
             <?php 
             if($data['id_level'] == '1'){
                 echo "";
@@ -52,7 +52,7 @@
 
   if(isset($_SESSION['pesan'])){
       echo $_SESSION['pesan'];
-      
+      unset($_SESSION['pesan']);
   }
 
   if(isset($_GET['act'])){
