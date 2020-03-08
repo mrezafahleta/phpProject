@@ -1,0 +1,1 @@
+<h1 class="text-danger" style="margin-top: 100px; text-align: center">404 NOT FOUND</h1>
