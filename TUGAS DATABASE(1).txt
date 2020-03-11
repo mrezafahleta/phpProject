@@ -25,7 +25,7 @@
 9. Tampilkan Data users yang namaBelakang dan namaDepannya = null
    - select * from users inner join profil on users.id_user = profil.id_user where nama_belakang = NULL AND nama_depan = NULL
 
-10. Tampilkan Data data users yang login terakhir pada tgl 07/03/2020
+10. Tampilkan Data data users yang login terakhir pada tgl 07/03/2020 ???
    - 
     
 11. Tampilkan Data users yang foto nya tidak ada
@@ -34,26 +34,26 @@
 12. Tampilkan Data users yang levelnya user dan berjenis kelamin perempuan
    - select * from users inner join profil on users.id_user = profil.id_user where users.level = 2 and profil.jk = "Perempuan"
 
-13. Tampilkan Data users umurnya >= 25 Tahun dan berjenis kelamin pria
+13. Tampilkan Data users umurnya >= 25 Tahun dan berjenis kelamin pria ???
     - select * from users inner join profil on users.id_user = profil.id_user where profil.umur >= 25 and profil.jk = "Pria"
 
-14. Tampilkan Data users yang terakhir login lebih dari 3 bulan yang lalu dan status akunnya aktif
+14. Tampilkan Data users yang terakhir login lebih dari 3 bulan yang lalu dan status akunnya aktif ???
     
 
-15. Tampilkan Data users yang mengisi profil secara lengkap
+15. Tampilkan Data users yang mengisi profil secara lengkap ???
     - select * from users inner join profil on users.id_user = profil.id_user
 
-16. Tampilkan Data users (username, nama_depan, nama_belakang) yang jenis kelaminnya bukan Wanita
+16. Tampilkan Data users (username, nama_depan, nama_belakang) yang jenis kelaminnya bukan Wanita ???
     - SELECT username,nama_depan,nama_belakang from users inner join profil on users.id_user = profil.id_user where users.id_user = 2 and  profil.jk = "Pria"
 
-17. Tampilkan Data users yang aktif dan levelnya user serta berjenis kelamin perempuan
+17. Tampilkan Data users yang aktif dan levelnya user serta berjenis kelamin perempuan ???
     - SELECT * from users inner join profil on users.id_user = profil.id_user where users.status = "Y" 
 
-18. Tampilkan Data users (username, kontak) yang kontaknya tidak kosong
+18. Tampilkan Data users (username, kontak) yang kontaknya tidak kosong ???
 
-19. Tampilkan Data users (Username, alamat) yang alamatnya tidak kosong
+19. Tampilkan Data users (Username, alamat) yang alamatnya tidak kosong ???
 
-20. Update data users ubah kontak menjadi 089999999 yang levelnya users
+20. Update data users ubah kontak menjadi 089999999 yang levelnya users ???
 
 21. Tambah Data users 
      - insert into users values ('1','ejak@gmail.com','ejak',123,'Y',1,2020-03-09)
@@ -67,6 +67,6 @@
 24. Delete Data Users yang idnya = 3
     - delete from users where id_user = 3
 
-25. Delete Data users yang idnya = 1 dan levelnya users serta berjenis kelamin Pria
+25. Delete Data users yang idnya = 1 dan levelnya users serta berjenis kelamin Pria ???
     - delete from users inner join level on users = level =  level.id_level and profil.id_user where users.id_user = 1 and level.nama_level = "User" 
       and profil.jk = "Pria"
